@@ -11,7 +11,7 @@ export const WorkMethods = () => {
 
                 <div className="work-methods__items">
                     <div className="work-methods__item">
-                        <img src="/public/2.1.jpg" alt="Фото" className="work-methods__item-img"/>
+                        <img src="/healing-demo/public/2.1.jpg" alt="Фото" className="work-methods__item-img"/>
 
                         <div className="work-methods__description">
                             <h2 className="work-methods__description-title">
@@ -31,7 +31,7 @@ export const WorkMethods = () => {
                     </div>
 
                     <div className="work-methods__item">
-                        <img src="/public/2.2.jpg" alt="Фото" className="work-methods__item-img"/>
+                        <img src="/healing-demo/public/2.2.jpg" alt="Фото" className="work-methods__item-img"/>
 
                         <div className="work-methods__description">
                             <h2 className="work-methods__description-title">
@@ -49,7 +49,7 @@ export const WorkMethods = () => {
                     </div>
 
                     <div className="work-methods__item">
-                        <img src="/public/2.3.jpg" alt="Фото" className="work-methods__item-img"/>
+                        <img src="/healing-demo/public/2.3.jpg" alt="Фото" className="work-methods__item-img"/>
 
                         <div className="work-methods__description">
                             <h2 className="work-methods__description-title">
@@ -67,7 +67,7 @@ export const WorkMethods = () => {
                     </div>
 
                     <div className="work-methods__item">
-                        <img src="/public/2.1.jpg" alt="Фото" className="work-methods__item-img"/>
+                        <img src="/healing-demo/public/2.1.jpg" alt="Фото" className="work-methods__item-img"/>
 
                         <div className="work-methods__description">
                             <h2 className="work-methods__description-title">
@@ -89,7 +89,7 @@ export const WorkMethods = () => {
             <div className="work-methods-testimony">
                 <h1 className="work__methods-testimony__title">Свідчення</h1>
 
-                <VideoComponent cardClassName="work-methods-testimony__video" src="/public/video.mp4"/>
+                <VideoComponent cardClassName="work-methods-testimony__video" src="/healing-demo/public/video.mp4"/>
                 <Divider sx={{ display: {md: 'none'} }} style={{width:'100%', marginTop: 20}}/>
             </div>
         </div>
