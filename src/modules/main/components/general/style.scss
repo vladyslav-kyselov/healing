@@ -1,0 +1,208 @@
+.general__info {
+    background-image: url('../../../../../public/general-info-bg.jpg');
+
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 20px;
+
+    min-height: 700px;
+    background-size: cover; /* изображение будет полностью умещаться в блоке, но могут остаться пустые пространства */
+    background-position: center; /* центрируем изображение по центру блока */
+
+
+}
+
+.info__description {
+    background-color: rgba(0,0,0,40%) !important;
+    border-radius: 10px;
+
+    max-width: 610px;
+    padding: 52px 60px;
+
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-top: 95px;
+}
+
+.info__description > h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    color: white;
+    margin: 0;
+}
+
+
+.info__description > p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+
+
+/* STATS */
+.general__stats-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: -120px;
+}
+
+.general__stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1500px;
+    border-radius: 10px;
+    padding: 26px 40px 30px;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.general__info-stats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1180px;
+    margin-top: 20px;
+}
+
+.general__info-item {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 0;
+}
+
+.info-item__title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    color: #1E1E1E;
+    margin-bottom: 12px;
+}
+
+.info-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #1E1E1E;
+    margin-top: 25px;
+}
+
+.info-item__count {
+    font-family: 'Inter', sans-serif;
+    color: #768471;
+    font-size: 55px;
+    margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .general__info {
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 0;
+        min-height: auto;
+    }
+
+    .info__description {
+        background-color: rgba(0,0,0,40%) !important;
+        border-radius: 10px !important;
+        max-width: 610px;
+        margin: 0;
+
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 20px;
+        box-sizing: border-box;
+    }
+
+
+    .info__description > h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 64px;
+        color: white;
+        margin: 0;
+    }
+
+
+    .info__description > p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: white;
+    }
+
+/*    STATS    */
+
+    .general__stats-wrapper {
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .general__stats {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        padding: 0;
+
+        box-shadow: none !important;
+    }
+
+    .general__info-stats {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 1180px;
+        margin-top: 20px;
+    }
+
+    .general__info-item {
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }
+
+    .info-item__title {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        color: #1E1E1E;
+        margin-bottom: 12px;
+    }
+
+    .info-text {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        color: #1E1E1E;
+        margin-top: -30px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .info-item__count {
+        font-family: 'Inter', sans-serif;
+        color: #768471;
+        font-size: 55px;
+        margin: 0;
+    }
+}
+
+

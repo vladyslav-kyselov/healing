@@ -1,6 +1,6 @@
 import {Paper, Divider} from "@mui/material";
 
-import './style.css';
+import './style.scss';
 
 export const General = () => {
     return (
