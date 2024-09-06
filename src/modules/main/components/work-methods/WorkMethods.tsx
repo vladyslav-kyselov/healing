@@ -11,7 +11,7 @@ export const WorkMethods = () => {
 
                 <div className="work-methods__items">
                     <div className="work-methods__item">
-                        <img src="./2.1.JPG" alt="Фото" className="work-methods__item-img"/>
+                        <img src="./2.1.jpg" alt="Фото" className="work-methods__item-img"/>
 
                         <div className="work-methods__description">
                             <h2 className="work-methods__description-title">

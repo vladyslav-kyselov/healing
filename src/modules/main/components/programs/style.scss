@@ -4,6 +4,10 @@
   font-family: 'Montserrat', sans-serif;
   margin-top: 180px;
 
+  @media only screen and (max-width: 768px) {
+    margin-top: 20px;
+  }
+
   .our-programs {
     display: flex;
     flex-direction: column;
