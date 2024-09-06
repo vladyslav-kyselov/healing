@@ -6,34 +6,22 @@ import {WorkMethods} from "./components/work-methods";
 import {Gallery} from "./components/gallery";
 
 
-type Props = {
-    refs: {
-        generalRef: React.RefObject<HTMLDivElement | null>,
-        aboutUsRef: React.RefObject<HTMLDivElement | null>
-        programRef: React.RefObject<HTMLDivElement | null>
-        methodsRef: React.RefObject<HTMLDivElement | null>
-        galleryRef: React.RefObject<HTMLDivElement | null>
-        contactsRef: React.RefObject<HTMLDivElement | null>
-    }
-};
-
-export const Main = (props: Props) => {
-    const {refs} = props;
+export const Main = () => {
     return (
         <main>
-            <div ref={refs.generalRef}>
+            <div id="general">
                 <General/>
             </div>
-            <div ref={refs.aboutUsRef}>
+            <div id="aboutUs">
                 <AboutUs/>
             </div>
-            <div ref={refs.programRef}>
+            <div id="programs">
                 <Programs/>
             </div>
-            <div ref={refs.methodsRef}>
+            <div id="methods">
                 <WorkMethods/>
             </div>
-            <div ref={refs.galleryRef}>
+            <div id="gallery">
                 <Gallery/>
             </div>
         </main>

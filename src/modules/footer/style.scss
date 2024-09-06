@@ -40,6 +40,10 @@
     }
   }
 
+  .footer__links {
+    color: $secondaryColor;
+  }
+
   .footer__logo-info {
     display: flex;
     flex-direction: column;
@@ -90,4 +94,18 @@
     }
   }
 
+}
+
+#contacts {
+  .footer {
+
+    .footer__logo-info {
+      display: block;
+
+      @media only screen and (max-width: 768px) {
+        display: none;
+      }
+    }
+
+  }
 }

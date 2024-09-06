@@ -4,7 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import {Carousel} from 'react-responsive-carousel';
 import {AccordionComponent} from "../../../../components/accordion";
 import {Divider} from "@mui/material";
-import React from "react";
+
 
 
 export const Gallery = () => {

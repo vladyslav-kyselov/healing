@@ -15,65 +15,54 @@ import ListItemText from "@mui/material/ListItemText";
 
 import './styles.scss';
 
-type Props = {
-    refs: { [key: string]: React.RefObject<HTMLDivElement | null> }
-};
-
 const drawerWidth = 240;
 
-const REF_TITLES = {
-    GENERAL: 'Головна',
-    ABOUT_US: 'Про нас',
-    PROGRAMS: 'Програми',
-    WORK_METHODS: 'Методи роботи',
-    GALLERY: 'Галерея',
-    CONTACTS: 'Контакти'
-};
-export const Header = (Props: Props) => {
-    const {refs, window} = Props;
-    const {generalRef, aboutUsRef, programRef, methodsRef, galleryRef, contactsRef} = refs;
+const NAV_ITEMS = [{
+    title: 'Головна',
+    id: 'general'
+}, {
+    title: 'Про нас',
+    id: 'aboutUs'
+}, {
+    title: 'Програми',
+    id: 'programs'
+}, {
+    title: 'Методи роботи',
+    id: 'methods'
+}, {
+    title: 'Галерея',
+    id: 'gallery'
+}, {
+    title: 'Контакти',
+    id: 'contacts'
+}];
 
-    // const [activeHeaderRef, setActiveHeaderRef] = useState<string>(REF_TITLES.GENERAL);
-
+export const Header = () => {
     const [mobileOpen, setMobileOpen] = useState(false);
 
     const handleDrawerToggle = () => {
         setMobileOpen((prevState) => !prevState);
     };
 
-    const navItems = [
-        {title: REF_TITLES.GENERAL, ref: generalRef},
-        {title: REF_TITLES.ABOUT_US, ref: aboutUsRef},
-        {title: REF_TITLES.PROGRAMS, ref: programRef},
-        {title: REF_TITLES.WORK_METHODS, ref: methodsRef},
-        {title: REF_TITLES.GALLERY, ref: galleryRef},
-        {title: REF_TITLES.CONTACTS, ref: contactsRef}
-    ];
-
-    const onHeaderButtonClick = ({ref}) => {
-        // setActiveHeaderRef(title);
-        ref.current.scrollIntoView({behavior: 'smooth'});
-    }
-
     const drawer = (
         <Box onClick={handleDrawerToggle} sx={{textAlign: 'center'}}>
             <img src="/public/logo.png" alt="logo" width={50} height={50}/>
             <Divider/>
             <List>
-                {navItems.map((item) => (
-                    <ListItem key={item.title} disablePadding>
-                        <ListItemButton sx={{textAlign: 'center'}} onClick={() => onHeaderButtonClick(item)}>
-                            <ListItemText primary={item.title}/>
-                        </ListItemButton>
+                {NAV_ITEMS.map(({id, title}) => (
+                    <a href={`#${id}`} className="header__refs_link">
+                        <ListItem key={title} disablePadding>
+                            <ListItemButton sx={{textAlign: 'center'}}>
+
+                                <ListItemText primary={title}/>
+                            </ListItemButton>
                     </ListItem>
+                    </a>
                 ))}
             </List>
             <p className="all-rights">© 2024 All Rights Reserved</p>
         </Box>
     );
-
-
-    // const getActiveRefClass = title => title === activeHeaderRef ? 'active-ref' : '';
 
     return (
         <>
@@ -92,10 +81,11 @@ export const Header = (Props: Props) => {
                         <img src="/public/logo.png" alt="logo" width={50} height={50}/>
                     </Box>
                     <Box sx={{display: {xs: 'none', sm: 'block'}}} className="header__refs">
-                        {navItems.map(({title, ref}) => (
-                            <Button key={title} className="header__refs_button"
-                                    onClick={() => onHeaderButtonClick({title, ref})}>
-                                <span className={`header__refs_title`}>{title}</span>
+                        {NAV_ITEMS.map(({title, id}) => (
+                            <Button key={title} className="header__refs_button">
+                                <a href={`#${id}`} className="header__refs_link">
+                                    <span className={`header__refs_title`}>{title}</span>
+                                </a>
                             </Button>
                         ))}
                     </Box>

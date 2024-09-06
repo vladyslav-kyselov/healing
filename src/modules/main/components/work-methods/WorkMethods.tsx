@@ -1,8 +1,7 @@
 import {VideoComponent} from "../../../../components/video";
+import {Divider} from "@mui/material";
 
 import './style.scss';
-import {Divider} from "@mui/material";
-import React from "react";
 
 export const WorkMethods = () => {
     return (

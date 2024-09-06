@@ -11,7 +11,7 @@ export const VideoComponent = ({src}: Props) => {
     const [isPlaying, setIsPlaying] = useState(false);
 
     const handlePlay = () => {
-        if (videoRef.current) {
+        if (videoRef.current && videoRef.current.play && videoRef.current.pause) {
             if (!isPlaying) {
                 videoRef.current.play();
                 setIsPlaying(true);

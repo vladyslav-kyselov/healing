@@ -1,6 +1,6 @@
-import './style.scss';
-import React from "react";
 import {Button, Divider, Paper} from "@mui/material";
+
+import './style.scss';
 
 export const Programs = () => {
     return (

@@ -4,37 +4,22 @@ import './style.scss';
 import Box from "@mui/material/Box";
 
 
-type Props = {
-    refs: {
-        generalRef: React.RefObject<HTMLDivElement | null>,
-        aboutUsRef: React.RefObject<HTMLDivElement | null>
-        programRef: React.RefObject<HTMLDivElement | null>
-        methodsRef: React.RefObject<HTMLDivElement | null>
-        galleryRef: React.RefObject<HTMLDivElement | null>
-        contactsRef: React.RefObject<HTMLDivElement | null>
-    }
-};
-
-export const Footer = ({refs}: Props) => {
-
-    const onRefClick = (ref) => {
-        ref.current.scrollIntoView({behavior: 'smooth'});
-    }
+export const Footer = () => {
     return (
-        <Box ref={refs.contactsRef}>
+        <Box id="contacts">
             <div className="footer">
-                <Box sx={{display: {xs: 'none !important', sm: 'block'}}} className="footer__logo-info">
+                <Box className="footer__logo-info">
                     <img src="/public/logo.png" alt="" className="footer-logo"/>
 
                     <p className="">© 2024 All Rights Reserved</p>
                 </Box>
 
                 <Box sx={{display: {xs: 'none', sm: 'block'}}} className="footer__refs">
-                    <div><a onClick={() => onRefClick(refs.aboutUsRef)}>Про нас</a></div>
-                    <div><a onClick={() => onRefClick(refs.programRef)}>Програми</a></div>
-                    <div><a onClick={() => onRefClick(refs.methodsRef)}>Методи роботи</a></div>
-                    <div><a onClick={() => onRefClick(refs.galleryRef)}>Галерея</a></div>
-                    <div><a onClick={() => onRefClick(refs.contactsRef)}>Контакти</a></div>
+                    <div><a className="footer__links" href="#aboutUs">Про нас</a></div>
+                    <div><a className="footer__links" href="#programs">Програми</a></div>
+                    <div><a className="footer__links" href="#methods">Методи роботи</a></div>
+                    <div><a className="footer__links" href="#gallery">Галерея</a></div>
+                    <div><a className="footer__links" href="#contacts">Контакти</a></div>
                 </Box>
 
                 <div className="footer__address">

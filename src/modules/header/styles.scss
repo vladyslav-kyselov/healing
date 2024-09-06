@@ -1,3 +1,5 @@
+@import "/src/variables.scss";
+
 body .header {
   background: white;
   box-shadow: none;
@@ -23,6 +25,18 @@ body .header {
       color: black;
       flex: 1;
 
+      .header__refs_link {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        vertical-align: center;
+
+        text-decoration: none;
+        color: $secondaryColor;
+      }
+
       &:hover {
         font-weight: 800;
       }
@@ -39,6 +53,9 @@ body .header {
     .header__refs_title {
       text-transform: none;
       font-size: 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
 
@@ -54,6 +71,11 @@ body .header {
 }
 
 @media only screen and (max-width: 768px) {
+  .header__refs_link {
+    text-decoration: none;
+    color: $secondaryColor;
+  }
+
   body .header {
     .header__toolbar {
       height: 56px;
