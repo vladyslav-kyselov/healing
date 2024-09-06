@@ -96,8 +96,7 @@ export const Programs = () => {
                             неможливе людське життя.
                         </p>
 
-                        {/*/public/book.pdf*/}
-                        <a href="#" target="_blank">
+                        <a href="/public/mybook.pdf" target="_blank">
                             <Button variant="outlined" className="our-programs__info-download-btn">
                                 Завантажити книгу
                             </Button>
