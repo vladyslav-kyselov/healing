@@ -33,7 +33,7 @@ export const VideoComponent = ({src}: Props) => {
                 alt="Sample video"
                 controls={isPlaying}  // Show controls only when video is playing
                 ref={videoRef}
-                poster="../../healing-demo/public/1.jpg"
+                poster="./1.jpg"
                 sx={{maxHeight: '800px', objectFit: 'contain', backgroundColor: '#E0E6DE', borderRadius: '10px'}}
             >
                 <source src={src} type="video/mp4"/>

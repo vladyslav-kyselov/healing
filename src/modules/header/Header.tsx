@@ -45,7 +45,7 @@ export const Header = () => {
 
     const drawer = (
         <Box onClick={handleDrawerToggle} sx={{textAlign: 'center'}}>
-            <img src="../../healing-demo/public/logo.png" alt="logo" width={50} height={50}/>
+            <img src="./logo.png" alt="logo" width={50} height={50}/>
             <Divider/>
             <List>
                 {NAV_ITEMS.map(({id, title}) => (
@@ -77,7 +77,7 @@ export const Header = () => {
                         <MenuIcon/>
                     </IconButton>
                     <Box sx={{flexGrow: 0.2, display: {xs: 'none', sm: 'block'}}} className="header__logo">
-                        <img src="../../healing-demo/public/logo.png" alt="logo" width={50} height={50}/>
+                        <img src="./logo.png" alt="logo" width={50} height={50}/>
                     </Box>
                     <Box sx={{display: {xs: 'none', sm: 'block'}}} className="header__refs">
                         {NAV_ITEMS.map(({title, id}) => (
