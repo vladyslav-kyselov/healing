@@ -1,0 +1,45 @@
+@import "variables";
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/fonts/Montserrat-Bold.ttf') format('truetype');
+    font-weight: $FWBold;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/fonts/Montserrat-ExtraBold.ttf') format('truetype');
+    font-weight: $FWExtraBold;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/fonts/Montserrat-Medium.ttf') format('truetype');
+    font-weight: $FWMedium;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: $FWRegular;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/fonts/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: $FWSemiBold;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter_Black.ttf') format('truetype');
+    /*font-weight: 900;*/
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
