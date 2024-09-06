@@ -26,7 +26,7 @@ export const VideoComponent = ({src}: Props) => {
     };
 
     return (
-        <Card sx={{position: 'relative'}} elevation={0}>
+        <Card sx={{position: 'relative'}} elevation={0} style={{width: '100%'}}>
             <CardMedia
                 component="video"
                 height="auto"
@@ -34,7 +34,7 @@ export const VideoComponent = ({src}: Props) => {
                 controls={isPlaying}  // Show controls only when video is playing
                 ref={videoRef}
                 poster="./1.jpg"
-                sx={{maxHeight: '800px', objectFit: 'contain', backgroundColor: '#E0E6DE', borderRadius: '10px'}}
+                sx={{maxHeight: '800px', objectFit: 'cover', backgroundColor: '#E0E6DE', borderRadius: '10px'}}
             >
                 <source src={src} type="video/mp4"/>
                 Your browser does not support the video tag.
