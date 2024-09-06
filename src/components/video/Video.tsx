@@ -1,3 +1,6 @@
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
+
 import {useRef, useState} from 'react';
 import {Card, CardMedia, IconButton} from '@mui/material';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';

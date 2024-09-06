@@ -1,4 +1,3 @@
-import * as React from "react";
 import {Paper, Divider} from "@mui/material";
 
 import './style.css';

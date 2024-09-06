@@ -1,4 +1,3 @@
-import * as React from "react";
 import {General} from "./components/general";
 import {AboutUs} from "./components/about-us";
 import {Programs} from "./components/programs";

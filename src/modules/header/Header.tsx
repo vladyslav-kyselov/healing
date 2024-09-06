@@ -5,7 +5,6 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Drawer from "@mui/material/Drawer";
-import * as React from "react";
 import {useState} from "react";
 import Divider from "@mui/material/Divider";
 import List from "@mui/material/List";
