@@ -55,7 +55,7 @@ export const Programs = () => {
                 <h1 className="our-programs__title">Різновиди програм</h1>
 
                 <div className="our-programs__program">
-                    <img src="/healing-demo/public/1.jpg" alt="" className="our-programs__program_img"/>
+                    <img src="../../../../../public/1.jpg" alt="" className="our-programs__program_img"/>
 
                     <div className="our-programs__info our-programs__info_odd">
                         <h2 className="our-programs__info-title">Класична програма</h2>
@@ -82,11 +82,11 @@ export const Programs = () => {
                         <Divider sx={{display: {md: 'none'}}} style={{width: '100%'}}/>
                     </div>
 
-                    <img src="/healing-demo/public/2.jpg" alt="" className="our-programs__program_img"/>
+                    <img src="../../../../../public/2.jpg" alt="" className="our-programs__program_img"/>
                 </div>
 
                 <div className="our-programs__program">
-                    <img src="/healing-demo/public/3.jpg" alt="" className="our-programs__program_img"/>
+                    <img src="../../../../../public/3.jpg" alt="" className="our-programs__program_img"/>
 
                     <div className="our-programs__info programs__info_odd">
                         <h2 className="our-programs__info-title">Долаючи лихо</h2>
@@ -96,7 +96,7 @@ export const Programs = () => {
                             неможливе людське життя.
                         </p>
 
-                        <a href="/healing-demo/public/mybook.pdf" target="_blank">
+                        <a href="../../../../../public/mybook.pdf" target="_blank">
                             <Button variant="outlined" className="our-programs__info-download-btn">
                                 Завантажити книгу
                             </Button>
@@ -118,12 +118,12 @@ export const Programs = () => {
                         <Divider sx={{display: {md: 'none'}}} style={{width: '100%'}}/>
                     </div>
 
-                    <img src="/healing-demo/public/4.jpg" alt="" className="our-programs__program_img"/>
+                    <img src="../../../../../public/4.jpg" alt="" className="our-programs__program_img"/>
                 </div>
 
                 <div className="our-programs__program">
                     <div className="our-programs__info programs__info_odd">
-                        <img src="/healing-demo/public/5.jpg" alt="" className="our-programs__program_img"/>
+                        <img src="../../../../../public/5.jpg" alt="" className="our-programs__program_img"/>
                         <h2 className="our-programs__info-title">Жіноча програма</h2>
                         <p>
                             Ця програма розроблена з метою допомогти жінкам на шляху глибшого самопізнання. Серед тем,
@@ -133,7 +133,7 @@ export const Programs = () => {
                         <Divider sx={{display: {md: 'none'}}} style={{width: '100%', marginBottom: 20}}/>
                     </div>
                     <div className="our-programs__info programs__info_odd">
-                        <img src="/healing-demo/public/6.jpg" alt="" className="our-programs__program_img"/>
+                        <img src="../../../../../public/6.jpg" alt="" className="our-programs__program_img"/>
                         <h2 className="our-programs__info-title">Сила в слабкості</h2>
                         <p>
                             Це окремий курс, що складається з 9 уроків. В цій програмі піднімаються важкі та глибокі

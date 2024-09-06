@@ -9,7 +9,7 @@ export const AboutUs = () => {
             <div className="about-us__video-block">
                 <h1 className="about-us__video-block-title">Про нас</h1>
 
-                <VideoComponent cardClassName="about-us__video" src="/healing-demo/public/video.mp4"/>
+                <VideoComponent cardClassName="about-us__video" src="../../../../../public/video.mp4"/>
             </div>
 
             <div className="about-us__our-direction-block">

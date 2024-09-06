@@ -8,7 +8,7 @@ export const Footer = () => {
         <Box id="contacts">
             <div className="footer">
                 <Box className="footer__logo-info">
-                    <img src="/healing-demo/public/logo.png" alt="" className="footer-logo"/>
+                    <img src="../../../public/logo.png" alt="" className="footer-logo"/>
 
                     <p className="">© 2024 All Rights Reserved</p>
                 </Box>
@@ -33,7 +33,7 @@ export const Footer = () => {
                     <div className="footer__contacts_social">
                         <a href="https://www.facebook.com/" target="_blank">
                             <img
-                                src="/healing-demo/public/fb.svg"
+                                src="../../../public/fb.svg"
                                 alt="facebook link"
                                 className="icon inst"
                                 width={12}
@@ -41,7 +41,7 @@ export const Footer = () => {
                             /></a>
                         <a href="https://www.instagram.com/" target="_blank">
                             <img
-                                src="/healing-demo/public/inst.svg"
+                                src="../../../public/inst.svg"
                                 alt="instagram link"
                                 className="icon inst"
                                 width={22}
@@ -50,7 +50,7 @@ export const Footer = () => {
                         </a>
                         <a href="https://www.youtube.com/" target="_blank">
                             <img
-                                src="/healing-demo/public/youtube.svg"
+                                src="../../../public/youtube.svg"
                                 alt="youtube link"
                                 className="icon inst"
                                 width={31}
