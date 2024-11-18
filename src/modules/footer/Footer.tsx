@@ -31,7 +31,7 @@ export const Footer = () => {
                     <p><a href="mailto:traumahealinguh@gmail.com">traumahealinguh@gmail.com</a></p>
 
                     <div className="footer__contacts_social">
-                        <a href="https://www.facebook.com/" target="_blank">
+                        <a href="https://www.facebook.com/traumahealingukraine" target="_blank">
                             <img
                                 src="./fb.svg"
                                 alt="facebook link"
@@ -39,7 +39,7 @@ export const Footer = () => {
                                 width={12}
                                 height={22}
                             /></a>
-                        <a href="https://www.instagram.com/" target="_blank">
+                        <a href="https://www.instagram.com/traumahealingukraine/" target="_blank">
                             <img
                                 src="./inst.svg"
                                 alt="instagram link"
@@ -48,7 +48,7 @@ export const Footer = () => {
                                 height={22}
                             />
                         </a>
-                        <a href="https://www.youtube.com/" target="_blank">
+                        <a href="https://www.youtube.com/@traumahealinginstitute" target="_blank">
                             <img
                                 src="./youtube.svg"
                                 alt="youtube link"

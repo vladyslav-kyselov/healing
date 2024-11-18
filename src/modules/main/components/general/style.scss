@@ -162,24 +162,24 @@
 
     .general__info-stats {
         display: flex;
-        justify-content: space-around;
+        justify-content: left;
         align-items: center;
         flex-wrap: wrap;
         width: 100%;
         max-width: 1180px;
-        margin-top: 20px;
+        margin-top: 0;
     }
 
     .general__info-item {
         margin-right: 50px;
         margin-left: 50px;
-        margin-bottom: 50px;
+        margin-bottom: 10px;
     }
 
     .info-item__title {
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
-        font-size: 26px;
+        font-size: 22px;
         color: #1E1E1E;
         margin-bottom: 12px;
     }
@@ -189,7 +189,7 @@
         font-weight: 500;
         font-size: 14px;
         color: #1E1E1E;
-        margin-top: -30px;
+
         margin-bottom: 20px;
         display: flex;
         justify-content: center;
@@ -200,7 +200,7 @@
     .info-item__count {
         font-family: 'Inter', sans-serif;
         color: #768471;
-        font-size: 55px;
+        font-size: 32px;
         margin: 0;
     }
 }

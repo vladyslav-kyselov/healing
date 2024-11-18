@@ -5,7 +5,48 @@ import {Carousel} from 'react-responsive-carousel';
 import {AccordionComponent} from "../../../../components/accordion";
 import {Divider} from "@mui/material";
 
-
+const GALLERY_PHOTOS = [
+    {
+        src: './зала.jpg',
+        alt: 'Фото'
+    }, {
+        src: './2.new.jpg',
+        alt: 'Фото'
+    }, {
+        src: './g3.jpg',
+        alt: 'Фото'
+    }, {
+        src: './g4.jpg',
+        alt: 'Фото'
+    }, {
+        src: './n1.jpg',
+        alt: 'Фото'
+    }, {
+        src: './g3.1.jpg',
+        alt: 'Фото'
+    }, {
+        src: './IMG_4344.webp',
+        alt: 'Фото'
+    }, {
+        src: './g3.3.jpg',
+        alt: 'Фото'
+    }, {
+        src: './bser.jpg',
+        alt: 'Фото'
+    }, {
+        src: './капелан.jpg',
+        alt: 'Фото'
+    }, {
+        src: './g4.1.jpg',
+        alt: 'Фото'
+    }, {
+        src: './g4.2.jpg',
+        alt: 'Фото'
+    }, {
+        src: './g4.3.jpg',
+        alt: 'Фото'
+    }
+];
 
 export const Gallery = () => {
     return (
@@ -16,47 +57,47 @@ export const Gallery = () => {
                 <Box sx={{display: {xs: 'none', sm: 'block'}}} className="gallery-cards__photos">
                     <div className="gallery-cards-photos__block1">
                         <div className="gallery-cards-photos__block1_1">
-                            <img src="./4.jpg" alt="Фото" className="gallery-cards-photos__block1_1-photo1"/>
-                            <img src="./2.jpg" alt="Фото" className="gallery-cards-photos__block1_1-photo2"/>
+                            <img src={GALLERY_PHOTOS[0].src} alt={GALLERY_PHOTOS[0].alt} className="gallery-cards-photos__block1_1-photo1"/>
+                            <img src={GALLERY_PHOTOS[1].src} alt={GALLERY_PHOTOS[1].alt} className="gallery-cards-photos__block1_1-photo2"/>
                         </div>
 
                         <div className="gallery-cards-photos__block1_2">
-                            <img src="./g3.jpg" alt="Фото" className="gallery-cards-photos__block1_2-photo1"/>
+                            <img src={GALLERY_PHOTOS[2].src} alt={GALLERY_PHOTOS[2].alt} className="gallery-cards-photos__block1_2-photo1"/>
                         </div>
                     </div>
 
                     <div className="gallery-cards-photos__block2">
-                        <img src="./g4.jpg" alt="Фото" className="gallery-cards-photos__block2_photo1"/>
-                        <img src="./n1.jpg" alt="Фото" className="gallery-cards-photos__block2_photo2"/>
+                        <img src={GALLERY_PHOTOS[3].src} alt={GALLERY_PHOTOS[3].alt} className="gallery-cards-photos__block2_photo1"/>
+                        <img src={GALLERY_PHOTOS[4].src} alt={GALLERY_PHOTOS[4].alt} className="gallery-cards-photos__block2_photo2"/>
                     </div>
 
                     <div className="gallery-cards-photos__block3">
                         <div className="gallery-cards-photos__block3_1">
-                            <img src="./g3.1.jpg" alt="Фото"
+                            <img src={GALLERY_PHOTOS[5].src} alt={GALLERY_PHOTOS[5].alt}
                                  className="gallery-cards-photos__block3_1-photo1"/>
-                            <img src="./IMG_4344.webp" alt="Фото"
+                            <img src={GALLERY_PHOTOS[6].src} alt={GALLERY_PHOTOS[6].alt}
                                  className="gallery-cards-photos__block3_1-photo2"/>
-                            <img src="./g3.3.jpg" alt="Фото"
+                            <img src={GALLERY_PHOTOS[7].src} alt={GALLERY_PHOTOS[7].alt}
                                  className="gallery-cards-photos__block3_1-photo3"/>
                         </div>
 
                         <div className="gallery-cards-photos__block3_2">
-                            <img src="./bser.jpg" alt="Фото"
+                            <img src={GALLERY_PHOTOS[8].src} alt={GALLERY_PHOTOS[8].alt}
                                  className="gallery-cards-photos__block3_2-photo1"/>
-                            <img src="./3.jpg" alt="Фото" className="gallery-cards-photos__block3_2-photo2"/>
+                            <img src={GALLERY_PHOTOS[9].src} alt={GALLERY_PHOTOS[9].alt} className="gallery-cards-photos__block3_2-photo2"/>
                         </div>
                     </div>
 
                     <div className="gallery-cards-photos__block4">
                         <div className="gallery-cards-photos__block4_1">
-                            <img src="./g4.1.jpg" alt="Фото"
+                            <img src={GALLERY_PHOTOS[10].src} alt={GALLERY_PHOTOS[10].alt}
                                  className="gallery-cards-photos__block4_1-photo1"/>
                         </div>
 
                         <div className="gallery-cards-photos__block4_2">
-                            <img src="./g4.2.jpg" alt="Фото"
+                            <img src={GALLERY_PHOTOS[11].src} alt={GALLERY_PHOTOS[10].alt}
                                  className="gallery-cards-photos__block4_2-photo1"/>
-                            <img src="./g4.3.jpg" alt="Фото"
+                            <img src={GALLERY_PHOTOS[12].src} alt={GALLERY_PHOTOS[12].alt}
                                  className="gallery-cards-photos__block4_2-photo2"/>
                         </div>
                     </div>
@@ -68,7 +109,7 @@ export const Gallery = () => {
                         showArrows={false}
                     >
                         <div className="gallery-cards__photo-wrapper-mobile">
-                            <img src="./4.jpg" alt="Фото"/>
+                            <img src={GALLERY_PHOTOS[0].src} alt="Фото"/>
                         </div>
 
                         <div className="gallery-cards__photo-wrapper-mobile">
@@ -84,8 +125,8 @@ export const Gallery = () => {
                         </div>
 
                         <div className="gallery-cards__photo-wrapper-mobile">
-                        </div>
                             <img src="./IMG_4344.webp" alt="Фото"/>
+                        </div>
                         <div className="gallery-cards__photo-wrapper-mobile">
                             <img src="./g3.3.jpg" alt="Фото"/>
                         </div>
@@ -93,7 +134,7 @@ export const Gallery = () => {
                             <img src="./bser.jpg" alt="Фото"/>
                         </div>
                         <div className="gallery-cards__photo-wrapper-mobile">
-                            <img src="./3.jpg" alt="Фото"/>
+                            <img src={GALLERY_PHOTOS[9].src} alt="Фото"/>
                         </div>
                         <div className="gallery-cards__photo-wrapper-mobile">
                             <img src="./g4.1.jpg" alt="Фото"/>

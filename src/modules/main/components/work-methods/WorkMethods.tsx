@@ -27,7 +27,7 @@ export const WorkMethods = () => {
                             </p>
 
                         </div>
-                        <Divider sx={{ display: {md: 'none'} }} style={{width:'100%', marginBottom: 20}}/>
+                        <Divider sx={{display: {md: 'none'}}} style={{width: '100%', marginBottom: 20}}/>
                     </div>
 
                     <div className="work-methods__item">
@@ -67,7 +67,7 @@ export const WorkMethods = () => {
                     </div>
 
                     <div className="work-methods__item">
-                        <img src="./2.1.jpg" alt="Фото" className="work-methods__item-img"/>
+                        <img src="./безпеч_серед.JPG" alt="Фото" className="work-methods__item-img"/>
 
                         <div className="work-methods__description">
                             <h2 className="work-methods__description-title">
@@ -88,7 +88,7 @@ export const WorkMethods = () => {
 
             <div className="work-methods-testimony">
                 <h1 className="work__methods-testimony__title">Свідчення</h1>
-                <VideoComponent cardClassName="work-methods-testimony__video" src="./video.mp4"/>
+                <VideoComponent cardClassName="work-methods-testimony__video" src="./свідоцтво_зжате.mp4" srcPoster="./св.постер.jpg"/>
                 <Divider sx={{ display: {md: 'none'} }} style={{width:'100%', marginTop: 20}}/>
             </div>
         </div>

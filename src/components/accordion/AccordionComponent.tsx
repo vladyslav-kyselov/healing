@@ -4,12 +4,16 @@ const ACCORDIONS = [
     {
         id: 1,
         title: 'Як записатись на участь у програмі?',
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.'
+        content: 'Щоб записатись на навчальні програми Інституту Зцілення Травм, заповніть форму за посиланням.'
     },
     {
         id: 2,
         title: 'Чи можна купити ваші матеріали для ознайомлення?',
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.'
+        content: (<div>
+            Матеріали надаються лише після проходження навчального семінару.
+            <br/>
+            В розділі "Програми" ви можете ознайомитись з коротким описом кожної з програм.
+        </div>)
     },
     {
         id: 3,
@@ -27,7 +31,7 @@ const ACCORDIONS = [
     {
         id: 4,
         title: 'Чи надаєте ви сертифікат?',
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.'
+        content: 'Так, після проходження програми ви отримуєте сертифікат, який засвідчує, що ви стали фасилітатором цієї програми.'
     }
 ];
 

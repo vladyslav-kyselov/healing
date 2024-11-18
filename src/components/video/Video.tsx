@@ -7,9 +7,10 @@ import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 
 type Props = {
     src: string;
+    srcPoster?: string;
     cardClassName?: string;
 };
-export const VideoComponent = ({src}: Props) => {
+export const VideoComponent = ({src, srcPoster}: Props) => {
     const videoRef = useRef(null);
     const [isPlaying, setIsPlaying] = useState(false);
 
@@ -33,7 +34,7 @@ export const VideoComponent = ({src}: Props) => {
                 alt="Sample video"
                 controls={isPlaying}  // Show controls only when video is playing
                 ref={videoRef}
-                poster="./1.jpg"
+                poster={srcPoster || "./1.jpg"}
                 sx={{maxHeight: '800px', objectFit: 'cover', backgroundColor: '#E0E6DE', borderRadius: '10px'}}
             >
                 <source src={src} type="video/mp4"/>
