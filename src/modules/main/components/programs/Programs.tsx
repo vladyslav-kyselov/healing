@@ -9,7 +9,7 @@ export const Programs = () => {
                 <h1 className="our-programs__title">Різновиди програм</h1>
 
                 <div className="our-programs__program">
-                    <img src="./1.jpg" alt="" className="our-programs__program_img"/>
+                    <img src="./1-min.jpg" alt="" className="our-programs__program_img"/>
 
                     <div className="our-programs__info our-programs__info_odd">
                         <h2 className="our-programs__info-title">Класична програма</h2>
@@ -36,11 +36,11 @@ export const Programs = () => {
                         <Divider sx={{display: {md: 'none'}}} style={{width: '100%'}}/>
                     </div>
 
-                    <img src="./2.jpg" alt="" className="our-programs__program_img"/>
+                    <img src="./2-min.jpg" alt="" className="our-programs__program_img"/>
                 </div>
 
                 <div className="our-programs__program">
-                    <img src="./3.jpg" alt="" className="our-programs__program_img"/>
+                    <img src="./3-min.jpg" alt="" className="our-programs__program_img"/>
 
                     <div className="our-programs__info programs__info_odd">
                         <h2 className="our-programs__info-title">Долаючи лихо</h2>
@@ -72,12 +72,12 @@ export const Programs = () => {
                         <Divider sx={{display: {md: 'none'}}} style={{width: '100%'}}/>
                     </div>
 
-                    <img src="./4.jpg" alt="" className="our-programs__program_img"/>
+                    <img src="./4-min.jpg" alt="" className="our-programs__program_img"/>
                 </div>
 
                 <div className="our-programs__program">
                     <div className="our-programs__info programs__info_odd">
-                        <img src="./5.jpg" alt="" className="our-programs__program_img"/>
+                        <img src="./5-min.jpg" alt="" className="our-programs__program_img"/>
                         <h2 className="our-programs__info-title">Жіноча програма</h2>
                         <p>
                             Ця програма розроблена з метою допомогти жінкам на шляху глибшого самопізнання. Серед тем,
@@ -87,7 +87,7 @@ export const Programs = () => {
                         <Divider sx={{display: {md: 'none'}}} style={{width: '100%', marginBottom: 20}}/>
                     </div>
                     <div className="our-programs__info programs__info_odd">
-                        <img src="./6.jpg" alt="" className="our-programs__program_img"/>
+                        <img src="./6-min.jpg" alt="" className="our-programs__program_img"/>
                         <h2 className="our-programs__info-title">Сила в слабкості</h2>
                         <p>
                             Це окремий курс, що складається з 9 уроків. В цій програмі піднімаються важкі та глибокі

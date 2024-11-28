@@ -7,43 +7,43 @@ import {Divider} from "@mui/material";
 
 const GALLERY_PHOTOS = [
     {
-        src: './зала.jpg',
+        src: './зала-min.jpg',
         alt: 'Фото'
     }, {
-        src: './2.new.jpg',
+        src: './2.new-min.jpg',
         alt: 'Фото'
     }, {
-        src: './g3.jpg',
+        src: './g3-min.jpg',
         alt: 'Фото'
     }, {
-        src: './g4.jpg',
+        src: './g4-min.jpg',
         alt: 'Фото'
     }, {
-        src: './n1.jpg',
+        src: './n1-min.jpg',
         alt: 'Фото'
     }, {
-        src: './g3.1.jpg',
+        src: './g3.1-min.jpg',
         alt: 'Фото'
     }, {
         src: './IMG_4344.webp',
         alt: 'Фото'
     }, {
-        src: './g3.3.jpg',
+        src: './g3.3-min.jpg',
         alt: 'Фото'
     }, {
-        src: './bser.jpg',
+        src: './bser-min.jpg',
         alt: 'Фото'
     }, {
-        src: './капелан.jpg',
+        src: './капелан-min.jpg',
         alt: 'Фото'
     }, {
-        src: './g4.1.jpg',
+        src: './g4.1-min.jpg',
         alt: 'Фото'
     }, {
-        src: './g4.2.jpg',
+        src: './g4.2-min.jpg',
         alt: 'Фото'
     }, {
-        src: './g4.3.jpg',
+        src: './g4.3-min.jpg',
         alt: 'Фото'
     }
 ];
@@ -103,7 +103,7 @@ export const Gallery = () => {
                     </div>
                 </Box>
 
-                <Box sx={{display: {xs: 'block', sm: 'none'}}} className="gallery-cards__photos">
+                <Box sx={{display: {xs: 'block', md: 'none'}}} className="gallery-cards__photos">
                     <Carousel
                         dynamicHeight={false}
                         showArrows={false}
@@ -113,37 +113,37 @@ export const Gallery = () => {
                         </div>
 
                         <div className="gallery-cards__photo-wrapper-mobile">
-                            <img src="./g4.jpg" alt="Фото"/>
+                            <img src="./g4-min.jpg" alt="Фото"/>
                         </div>
 
                         <div className="gallery-cards__photo-wrapper-mobile">
-                            <img src="./n1.jpg" alt="Фото"/>
+                            <img src="./n1-min.jpg" alt="Фото"/>
                         </div>
 
                         <div className="gallery-cards__photo-wrapper-mobile">
-                            <img src="./g3.1.jpg" alt="Фото"/>
+                            <img src="./g3.1-min.jpg" alt="Фото"/>
                         </div>
 
                         <div className="gallery-cards__photo-wrapper-mobile">
                             <img src="./IMG_4344.webp" alt="Фото"/>
                         </div>
                         <div className="gallery-cards__photo-wrapper-mobile">
-                            <img src="./g3.3.jpg" alt="Фото"/>
+                            <img src="./g3.3-min.jpg" alt="Фото"/>
                         </div>
                         <div className="gallery-cards__photo-wrapper-mobile">
-                            <img src="./bser.jpg" alt="Фото"/>
+                            <img src="./bser-min.jpg" alt="Фото"/>
                         </div>
                         <div className="gallery-cards__photo-wrapper-mobile">
                             <img src={GALLERY_PHOTOS[9].src} alt="Фото"/>
                         </div>
                         <div className="gallery-cards__photo-wrapper-mobile">
-                            <img src="./g4.1.jpg" alt="Фото"/>
+                            <img src="./g4.1-min.jpg" alt="Фото"/>
                         </div>
                         <div className="gallery-cards__photo-wrapper-mobile">
-                            <img src="./g4.2.jpg" alt="Фото"/>
+                            <img src="./g4.2-min.jpg" alt="Фото"/>
                         </div>
                         <div className="gallery-cards__photo-wrapper-mobile">
-                            <img src="./g4.3.jpg" alt="Фото"/>
+                            <img src="./g4.3-min.jpg" alt="Фото"/>
                         </div>
                     </Carousel>
                     <Divider sx={{display: {md: 'none'}}} style={{width: '100%'}}/>

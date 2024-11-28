@@ -61,7 +61,7 @@ export const AboutUs = () => {
                         </Paper>
                     </div>
 
-                    <VideoComponent cardClassName="about-us__video" src="./video.mp4" srcPoster="./про_нас_постер.jpg"/>
+                    <VideoComponent cardClassName="about-us__video" src="./video.mp4" srcPoster="./про_нас_постер-min.jpg"/>
                 </div>
             </div>
 

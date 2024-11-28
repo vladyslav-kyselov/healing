@@ -34,7 +34,7 @@ export const VideoComponent = ({src, srcPoster}: Props) => {
                 alt="Sample video"
                 controls={isPlaying}  // Show controls only when video is playing
                 ref={videoRef}
-                poster={srcPoster || "./1.jpg"}
+                poster={srcPoster || "./1-min.jpg"}
                 sx={{maxHeight: '800px', objectFit: 'cover', backgroundColor: '#E0E6DE', borderRadius: '10px'}}
             >
                 <source src={src} type="video/mp4"/>
