@@ -45,7 +45,7 @@ export const AboutUs = () => {
                             </p>
                         </Paper>
 
-                        <Paper className="our-programs__item">
+                        <Paper className="our-programs__item" >
                             <h2 className="our-programs__item-title">
                                 Цільова аудиторія
                             </h2>
